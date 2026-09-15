@@ -1,0 +1,15 @@
+Redrix S0ix residency test
+Started: 2026-09-14T19:34:53-04:00
+Kernel: 7.2.5-200.fc44.x86_64
+Sleep modes: [s2idle] deep
+Initial platform low-power-idle residency: 76204587 us
+
+Suspending now. Leave the machine asleep for at least 120 seconds,
+then wake it with the power button or lid.
+
+Resumed: 2026-09-14T19:34:54-04:00
+Final platform low-power-idle residency: 76204587 us
+Residency gained: 0 us
+Wall-clock test interval: 183664 us
+Platform low-power-idle residency ratio: 0.0%
+FAIL: the platform did not enter S0ix.

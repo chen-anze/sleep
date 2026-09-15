@@ -1,0 +1,14 @@
+Redrix Chrome EC suspend test
+Started: 2026-09-14T19:30:40-04:00
+Kernel: 7.2.5-200.fc44.x86_64
+Sleep modes: [s2idle] deep
+
+Suspending now. Leave the machine asleep for at least 60 seconds.
+Then wake it with the power button or by opening the lid.
+
+Resumed: 2026-09-14T19:31:13-04:00
+Sep 14 19:30:41 dragonfly kernel: PM: suspend entry (s2idle)
+Sep 14 19:31:12 dragonfly kernel: cros_ec_sleep_kprobe: set HOST_SLEEP_EVENT timeout to infinite
+Sep 14 19:31:12 dragonfly kernel: PM: suspend exit
+
+PASS: workaround intercepted suspend; no EC timeout was recorded.

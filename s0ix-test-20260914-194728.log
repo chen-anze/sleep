@@ -1,0 +1,17 @@
+Redrix S0ix residency test
+Started: 2026-09-14T19:47:28-04:00
+Kernel: 7.2.5-200.fc44.x86_64
+Sleep modes: [s2idle] deep
+Initial platform low-power-idle residency: 14687812 us
+
+Suspending now. Leave the machine asleep for at least 120 seconds,
+then wake it with the power button or lid.
+
+Resumed: 2026-09-14T19:47:36-04:00
+Final platform low-power-idle residency: 17919726 us
+Residency gained: 3231914 us
+Wall-clock test interval: 7530607 us
+Platform low-power-idle residency ratio: 42.9%
+PASS: the Intel platform entered S0ix during this interval.
+NOTE: residency below 80% suggests delayed entry or a low-power blocker.
+Saved result: /home/anze/Documents/Codex-hacks/sleep/s0ix-test-20260914-194728.log
